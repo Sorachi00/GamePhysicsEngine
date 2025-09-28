@@ -13,21 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de encabezado\Cyclone">
+      <UniqueIdentifier>{a17f7b78-56f3-47db-b1d0-3cb94b796e83}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GamePhysicsEngine.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="src\particle.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="include\cyclone\core.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Cyclone</Filter>
     </ClInclude>
     <ClInclude Include="include\cyclone\precision.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\Cyclone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cyclone\particle.h">
+      <Filter>Archivos de encabezado\Cyclone</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

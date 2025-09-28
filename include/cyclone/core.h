@@ -1,5 +1,5 @@
 #pragma once
-#include "include/cyclone/precision.h"
+#include "precision.h"
 
 namespace cyclone {
 	class Vector3
