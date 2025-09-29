@@ -14,8 +14,18 @@ namespace cyclone {
 
 		real inverseMass; //is better to have inverse mass to manage immovible objects 1/m
 
+
+	public:
+		void setMass(real value);
+		void setVelocity(Vector3 value);
+		void setAcceleration(Vector3 value);
+		void setDamping(real value);
+		void setPosition(Vector3 value);
+		void clearAccumulator();
+		Vector3 getPosition();
 		void integrate(real duration);
 
-		//void clearAccumulator();
+
 	};
+	
 }

@@ -125,6 +125,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GamePhysicsEngine.cpp" />
+    <ClCompile Include="src\demos\ballistic\ballistic.cpp" />
     <ClCompile Include="src\particle.cpp" />
   </ItemGroup>
   <ItemGroup>

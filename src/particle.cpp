@@ -3,9 +3,6 @@
 
 using namespace cyclone;
 
-void clearAccumulator() {
-	return;
-}
 
 void Particle::integrate(real duration) {
 	//We don't integrate things with infinite mass
@@ -28,3 +25,39 @@ void Particle::integrate(real duration) {
 	//Clear the forces
 	clearAccumulator();
 }
+
+
+void Particle::clearAccumulator() {
+	return;
+}
+
+void Particle::setMass(real value)
+{
+	inverseMass = 1 / value;
+}
+
+void Particle::setVelocity(Vector3 value)
+{
+	velocity = value;
+}
+
+void Particle::setAcceleration(Vector3 value)
+{
+	acceleration = value;
+}
+
+void Particle::setPosition(Vector3 value)
+{
+	position = value;
+}
+
+
+void Particle::setDamping(real value)
+{
+	damping = value;
+}
+
+Vector3 Particle::getPosition() {
+	return position;
+}
+
