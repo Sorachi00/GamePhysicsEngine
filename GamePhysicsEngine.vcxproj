@@ -125,13 +125,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GamePhysicsEngine.cpp" />
-    <ClCompile Include="src\demos\ballistic\ballistic.cpp" />
+    <ClCompile Include="src\demos\ballistic\Ballistic.cpp" />
     <ClCompile Include="src\particle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\cyclone\particle.h" />
     <ClInclude Include="include\cyclone\precision.h" />
     <ClInclude Include="core.h" />
+    <ClInclude Include="include\demos\Ballistic.h" />
+    <ClInclude Include="include\demos\Shot.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

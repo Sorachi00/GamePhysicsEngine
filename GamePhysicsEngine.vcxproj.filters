@@ -16,6 +16,12 @@
     <Filter Include="Archivos de encabezado\Cyclone">
       <UniqueIdentifier>{a17f7b78-56f3-47db-b1d0-3cb94b796e83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\Demos">
+      <UniqueIdentifier>{49b5d773-9560-408d-81c6-c56c1f2f3336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Demos">
+      <UniqueIdentifier>{966406fb-e03a-42ec-9793-59234a5083af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GamePhysicsEngine.cpp">
@@ -24,8 +30,8 @@
     <ClCompile Include="src\particle.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="src\demos\ballistic\ballistic.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="src\demos\ballistic\Ballistic.cpp">
+      <Filter>Archivos de origen\Demos</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +43,12 @@
     </ClInclude>
     <ClInclude Include="include\cyclone\particle.h">
       <Filter>Archivos de encabezado\Cyclone</Filter>
+    </ClInclude>
+    <ClInclude Include="include\demos\Ballistic.h">
+      <Filter>Archivos de encabezado\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="include\demos\Shot.h">
+      <Filter>Archivos de encabezado\Demos</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
